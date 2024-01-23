@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 }
-/*ESTILO DE TODOS MIS h1*/
+/*estilo de todos mis h1*/
 h1 {
 	color: rgb(180, 6, 6);
 	font-size: xx-large;
@@ -18,16 +18,16 @@ h1:hover{
     transform: scale(2);
 
 }
-/*SUBTITULOS, CATEGORIAS*/
+/*subtitulos, categorias*/
 
-/*ESTILO DE TODOS MIS h2*/
+/*estilo de todos mis h2*/
 h2 {
 	color: rgb(7, 7, 92);
 }
 h2:hover{
     transform: scale(1.2);
 }
-/*ESTILO DE TODOS MIS h3*/
+/*estilo de todos mis h3*/
 h3 {
 	color: rgb(7, 7, 92);
 }
@@ -53,9 +53,9 @@ body {
 	color: rgb(7, 7, 92);
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Raleway';
+	font-family: 'raleway';
 	display: block;
-	/*id se identifica con hastag -  se usa poco, solo la CLASS*/
+	/*id se identifica con hastag -  se usa poco, solo la class*/
 	/*class se identifica con punto y se puede poner varias clases en el mismo valor*/
 }
 
@@ -77,7 +77,7 @@ nav:hover{
     background-color:rgb(180, 6, 6);
   color: rgb(255, 255, 255);
 }
-/*estilo seccion INDEX proposito del emprendimiento*/
+/*estilo seccion index proposito del emprendimiento*/
 .proposito{
     display: grid;
     grid-template-rows: 80px 60px;
