@@ -133,9 +133,6 @@ ul {
 	right: 300px;
 }
 
-.logoinicio:hover {
-	transform: scale(1.1);
-}
 
 .nombreinicio {
 	display: inline-block;
@@ -149,9 +146,6 @@ ul {
 	float: right;
 }
 
-.casco:hover {
-	transform: scale(1.1);
-}
 
 
 /*seccion catalogo*/
