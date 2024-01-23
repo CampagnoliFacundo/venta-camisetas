@@ -4,10 +4,7 @@
 	margin: 0;
 	padding: 0;
 }
-
-
 /*estilo de todos mis h1*/
-
 h1 {
 	color: rgb(180, 6, 6);
 	font-size: xx-large;
@@ -16,42 +13,27 @@ h1 {
 	position: relative;
 	left: 150px;
 }
-
 h1:hover {
 	color: rgb(7, 7, 92);
 	transform: scale(2);
 }
-
-
 /*subtitulos, categorias*/
-
-
 /*estilo de todos mis h2*/
-
 h2 {
 	color: rgb(7, 7, 92);
 }
-
-
 /*estilo de todos mis h3*/
-
 h3 {
 	color: rgb(7, 7, 92);
 }
-
-
 /*tamanio de imagenes*/
-
 img {
 	width: 300px;
 	height: 200px;
 	object-fit: contain;
 	display: inline-block;
 }
-
-
 /*orden del header*/
-
 head {
 	display: block;
 	text-align: center;
@@ -59,10 +41,7 @@ head {
 	text-decoration: none;
 	flex-direction: column;
 }
-
-
 /*orden y colores del body*/
-
 body {
 	text-decoration: none;
 	background-color: rgb(245, 245, 245);
@@ -74,82 +53,57 @@ body {
 	/*id se identifica con hastag -  se usa poco, solo la class*/
 	/*class se identifica con punto y se puede poner varias clases en el mismo valor*/
 }
-
-
 /*footer, orden y colores*/
-
 footer {
 	background-color: rgb(7, 7, 92);
 	color: rgb(255, 255, 255);
 	background-size: auto;
 }
-
 nav {
 	text-decoration: none;
 	background-color: rgb(7, 7, 92);
 	height: 25px;
 	font-size: large;
 }
-
 nav:hover {
 	background-color: rgb(180, 6, 6);
 	color: rgb(255, 255, 255);
 }
-
-
 /*estilo seccion index proposito del emprendimiento*/
-
 .proposito {
 	display: grid;
 	grid-template-rows: 80px 60px;
 }
-
-
 /*links*/
-
 a {
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 }
-
 p {
 	font-weight: 600;
 }
-
-
 /*nav top*/
-
 ul {
 	justify-content: space-around;
 	display: flex;
 }
-
-
 /*ubicacion logo principal y nombre*/
-
 .logoinicio {
 	display: inline-block;
 	position: relative;
 	right: 300px;
 }
-
-
 .nombreinicio {
 	display: inline-block;
 	position: relative;
 	bottom: 75px;
 	right: 160px;
 }
-
 .casco {
 	display: flex;
 	float: right;
 }
-
-
-
 /*seccion catalogo*/
-
 .precio {
 	display: flex;
 	justify-content: center;
@@ -157,32 +111,25 @@ ul {
 	font-size: xx-large;
 	color: rgb(0, 0, 0);
 }
-
 .fotocatalogo {
 	display: flex;
 	justify-content: center;
 	justify-content: space-around;
 }
-
-
 /*grilla fin de pagina principal*/
-
 .finindex {
 	display: grid;
 	grid-template-rows: 70px 50px;
 }
-
 .imgcata:hover {
 	transform: scale(1.5);
 }
-
 .pagoinicio{
 	display: grid;
 	grid-template-rows: 70px 50px;
 	position: relative;
 	top: 40px;
 }
-
 .enviosinicio{
 	display: grid;
 	grid-template-rows: 70px 50px;
