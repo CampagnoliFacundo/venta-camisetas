@@ -24,10 +24,15 @@ h1 {
   display: flex;
   position: relative;
   left: 150px;
+  text-decoration: none;
 }
 h1:hover {
   color: rgb(7, 7, 92);
   transform: scale(2);
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
@@ -35,6 +40,9 @@ img {
   height: 200px;
   object-fit: contain;
   display: inline-block;
+}
+img:hover {
+  transform: scale(1.2);
 }
 
 * {
@@ -110,10 +118,6 @@ h3 {
 .finindex {
   display: grid;
   grid-template-rows: 70px 50px;
-}
-
-.imgcata:hover {
-  transform: scale(1.5);
 }
 
 .pagoinicio {
