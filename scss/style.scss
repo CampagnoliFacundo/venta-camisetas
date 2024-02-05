@@ -1,0 +1,182 @@
+$coloruno: rgb(180, 6, 6);
+$colordos: rgb(7, 7, 92);
+$colortres: rgb(255, 255, 255);
+$colorcuatro: rgb(0,0,0);
+
+nav{
+    text-decoration: none;
+    background-color: $colordos;
+    height: 25px;
+    font-size: large;
+      &:hover{
+       background-color: $coloruno;
+       color: $colortres;
+    }
+    ul{
+        justify-content: space-around;
+	display: flex;
+        a{
+            text-decoration: none;
+            color: $colortres;
+        }
+    }
+}
+
+h1 {
+	color: $coloruno;
+	font-size: xx-large;
+	font-weight: 10000;
+	display: flex;
+	position: relative;
+	left: 150px;
+            &:hover{
+        color: $colordos;
+	    transform: scale(2);
+           }
+}
+img {
+	width: 300px;
+	height: 200px;
+	object-fit: contain;
+	display: inline-block;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+head {
+	display: block;
+	text-align: center;
+	align-items: center;
+	text-decoration: none;
+	flex-direction: column;
+}
+body {
+	text-decoration: none;
+	background-color: $colortres;
+	color: $colordos;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'raleway';
+	display: block;
+}
+footer {
+	background-color:$colordos;
+	color: $colortres;
+	background-size: auto;
+}
+ h2{ 
+    color: $colordos;
+ }
+ h3{
+    color: $colordos;
+ }
+ .proposito {
+	display: grid;
+	grid-template-rows: 80px 60px;
+    color: $colordos;
+}
+.logoinicio {
+	display: inline-block;
+	position: relative;
+	right: 300px;
+}
+
+.nombreinicio {
+	display: inline-block;
+	position: relative;
+	bottom: 75px;
+	right: 160px;
+}
+
+.precio {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	font-size: xx-large;
+	color: $colorcuatro;
+}
+
+.fotocatalogo {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.finindex {
+	display: grid;
+	grid-template-rows: 70px 50px;
+}
+
+.imgcata:hover {
+	transform: scale(1.5);
+}
+
+.pagoinicio {
+	display: grid;
+	grid-template-rows: 70px 50px;
+	position: relative;
+	top: 40px;
+}
+
+.enviosinicio {
+	display: grid;
+	grid-template-rows: 70px 50px;
+	position: relative;
+	top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		display: block;
+	}
+	.navini {
+		width: 600px;
+		font-size: 45%;
+		text-wrap: nowrap;
+		justify-content: space-between;
+		max-width: 95%;
+	}
+	.nomobile {
+		display: none;
+	}
+	body {
+		text-align: center;
+		max-width: 95%;
+		font-size: 70%;
+	}
+	.proposito {
+		text-align: center;
+		font-size: 70%;
+		max-width: 95%;
+	}
+	img {
+		max-width: 40%;
+	}
+    .nfl{
+        max-width: 20%;
+    }
+	.pagoinicio {
+		text-align: center;
+		font-size: 100%;
+		max-width: 95%;
+	}
+	.enviosinicio {
+		text-align: center;
+		font-size: 100%;
+		max-width: 95%;
+	}
+	.mapa {
+		display: none;
+	}
+	.finindex {
+		text-align: center;
+		font-size: 70%;
+		max-width: 95%;
+	}
+	footer {
+		text-align: center;
+		font-size: 70%;
+		max-width: 95%;
+	}
+}
