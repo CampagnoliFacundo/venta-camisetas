@@ -134,6 +134,15 @@ h3 {
   top: 40px;
 }
 
+.catalogointerno {
+  display: grid;
+  justify-content: center;
+}
+
+.preciosindiv {
+  display: grid;
+}
+
 @media only screen and (max-width: 600px) {
   h1 {
     display: block;
