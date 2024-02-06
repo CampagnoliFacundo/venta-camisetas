@@ -6,8 +6,9 @@ $colorcuatro: rgb(0,0,0);
 nav{
     text-decoration: none;
     background-color: $colordos;
-    height: 25px;
+    height: 40px;
     font-size: large;
+	padding: 10px;
       &:hover{
        background-color: $coloruno;
        color: $colortres;
@@ -24,15 +25,15 @@ nav{
 
 h1 {
 	color: $coloruno;
-	font-size: xx-large;
-	font-weight: 10000;
 	display: flex;
 	position: relative;
-	left: 150px;
     text-decoration: none;
+	justify-content: center;
+	align-items: center;
+	height: 130px;
             &:hover{
         color: $colordos;
-	    transform: scale(2);
+	    transform: scale(1.9);
            }
 }
 a{
@@ -50,6 +51,7 @@ img {
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 head {
 	display: block;
@@ -83,18 +85,12 @@ footer {
 	grid-template-rows: 80px 60px;
     color: $colordos;
 }
-.logoinicio {
-	display: inline-block;
-	position: relative;
-	right: 300px;
-}
-
-.nombreinicio {
-	display: inline-block;
-	position: relative;
-	bottom: 75px;
-	right: 160px;
-}
+.nfl{
+	display: flex;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+} 
 
 .precio {
 	display: flex;
@@ -133,8 +129,44 @@ footer {
     justify-content: center;
 }
 .preciosindiv{
-    display: grid;
-    
+    display: grid; 
+}
+.iconos{
+	max-width: 30px;
+	max-height: 30px;
+}
+div{
+	img{
+		width: 80%;
+		height: 80%;
+		&:hover{
+			transform: none;
+		}
+	}
+}
+
+#contenedorcarru{
+	height: 450px;
+	overflow: hidden;
+div.carru{
+	height: 100%;
+	position: relative;
+	div.fotoscarru{
+		height: 100%;
+		position: relative;
+
+	}
+	div.flechascarru{
+		height: 100%;
+position: absolute;
+top: 20%;
+width: 100%;
+display: flex;
+align-content: center;
+justify-content: space-between;
+padding: 45px;
+	}
+}
 }
 
 @media only screen and (max-width: 600px) {
